@@ -52,7 +52,7 @@ public class VideoSample implements ApplicationListener, InputProcessor {
 	public void render() {
 		float dt = Gdx.graphics.getDeltaTime();
 		
-		Gdx.gl.glClearColor(1, 1, 1, 1);
+		Gdx.gl.glClearColor(0, 0, 0, 1);
 		Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 		
 		// If the video texture has changed, update the sprite
